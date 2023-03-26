@@ -1,0 +1,70 @@
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-heading {
+    color: #263660;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.input-item {
+    margin-bottom: 20px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    font-size: 16px;
+}
+
+.forgetpass {
+    width: 30%;
+    margin: 15px 0;
+    margin-top: -15px;
+    text-align: left;
+    font-size: 15px;
+    color: #3891c4;
+    user-select: none;
+    cursor: pointer;
+}
+
+.notice,
+.notice-success {
+    margin-top: -10px;
+    font-style: italic;
+    font-size: 12px;
+    color: #f76262;
+}
+
+.notice-success {
+    color: #41c669;
+}
+
+.notice-error {
+    border: 1px solid #f76262;
+}
+
+.btn-submit {
+    margin-top: 20px;
+    padding: 12px 0;
+    background-color: #cc7b7b;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #cc6b6b;
+}
